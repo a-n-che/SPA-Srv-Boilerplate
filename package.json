@@ -1,0 +1,36 @@
+{
+  "name": "spa-srv",
+  "version": "0.0.1",
+  "description": "Simple SPA on KOA",
+  "main": "index.js",
+  "scripts": {
+    "setup": "npm i && cd ui && npm i",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "koa",
+    "boilerplate",
+    "SPA",
+    "webix-jet"
+  ],
+  "author": "DuChan",
+  "license": "MIT",
+  "dependencies": {
+    "bytes": "^2.5.0",
+    "chalk": "^1.1.3",
+    "dateformat": "^3.0.3",
+    "humanize-number": "0.0.2",
+    "koa": "^2.7.0",
+    "koa-bodyparser": "^4.2.1",
+    "koa-compress": "^3.0.0",
+    "koa-favicon": "^2.0.1",
+    "koa-helmet": "^4.1.0",
+    "koa-passport": "^4.1.1",
+    "koa-route": "^3.2.0",
+    "koa-send": "^5.0.0",
+    "koa-session": "^5.10.1",
+    "koa-static": "^5.0.0",
+    "passport-local": "^1.0.0",
+    "passthrough-counter": "^1.0.0"
+  }
+}
